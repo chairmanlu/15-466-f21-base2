@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# Golf Alone
 
-Author: (TODO: your name)
+Author: Steven Lu (sslu1)
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: A virtual mini-golf. You can also hit the ball into the air and watch it bounce around.
 
 Screen Shot:
 
@@ -10,13 +10,18 @@ Screen Shot:
 
 How Your Asset Pipeline Works:
 
-(TODO: describe the steps in your asset pipeline, from source files to tiles/backgrounds/whatever you upload to the PPU466.)
+I used blender to create most of the models and the starter scripts to convert them to .pnct and .scene files.
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+Get the ball in the hole in as few shots as possible. It might be more fun to mess around with the ball physics though.
+WASD and the mouse control the camera. The arrow keys aim the ball, and Q/E increase and decrease the shot power.
+The golf ball is animated to roll, although I think it only shows up if you are zoomed in enough.
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Sources:
+
+ - Golf Ball: https://www.turbosquid.com/3d-models/free-3ds-mode-golf-ball/1018024
+ - Line Font by Jim McCann
 
 This game was built with [NEST](NEST.md).
 
